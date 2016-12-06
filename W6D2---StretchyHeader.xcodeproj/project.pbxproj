@@ -12,6 +12,7 @@
 		A089CAB51DF714800074F0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A089CAB31DF714800074F0A6 /* Main.storyboard */; };
 		A089CAB71DF714800074F0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A089CAB61DF714800074F0A6 /* Assets.xcassets */; };
 		A089CABA1DF714800074F0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A089CAB81DF714800074F0A6 /* LaunchScreen.storyboard */; };
+		A089CAC21DF717B80074F0A6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089CAC11DF717B80074F0A6 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A089CAB61DF714800074F0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A089CAB91DF714800074F0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A089CABB1DF714800074F0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A089CAC11DF717B80074F0A6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A089CAAF1DF714800074F0A6 /* AppDelegate.swift */,
 				A089CAB11DF714800074F0A6 /* ViewController.swift */,
+				A089CAC11DF717B80074F0A6 /* CustomTableViewCell.swift */,
 				A089CAB31DF714800074F0A6 /* Main.storyboard */,
 				A089CAB61DF714800074F0A6 /* Assets.xcassets */,
 				A089CAB81DF714800074F0A6 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A089CAC21DF717B80074F0A6 /* CustomTableViewCell.swift in Sources */,
 				A089CAB21DF714800074F0A6 /* ViewController.swift in Sources */,
 				A089CAB01DF714800074F0A6 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				A089CAC01DF714800074F0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
